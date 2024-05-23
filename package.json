@@ -1,0 +1,39 @@
+{
+  "name": "@yaunfei/common-util",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaunfei/common-util.git"
+  },
+	"keywords": [
+    "util",
+    "ts",
+    "native"
+	],
+  "main": "./dist/commonUtil.umd.cjs",
+  "module": "./dist/commonUtil.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/commonUtil.js",
+    "require": "./dist/commonUtil.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
