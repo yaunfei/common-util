@@ -1,7 +1,7 @@
 {
   "name": "@yaunfei/common-util",
-  "private": true,
   "version": "1.0.0",
+  "description": "js、ts公共工具库",
   "type": "module",
   "files": [
     "dist",
@@ -10,16 +10,16 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-	},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yaunfei/common-util.git"
   },
-	"keywords": [
+  "keywords": [
     "util",
     "ts",
     "native"
-	],
+  ],
   "main": "./dist/commonUtil.umd.cjs",
   "module": "./dist/commonUtil.js",
   "types": "./index.d.ts",
@@ -35,5 +35,11 @@
   "devDependencies": {
     "typescript": "^5.3.3",
     "vite": "^5.0.10"
-  }
+  },
+  "author": "yaunfei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaunfei/common-util/issues"
+  },
+  "homepage": "https://github.com/yaunfei/common-util#readme"
 }
